@@ -19,7 +19,7 @@ Welcome to the official website for **Loco Tacos**, a vibrant taco shop dedicate
 ## 🛠️ Technologies Used
 
 - **HTML5**: For the website structure and content.
-- **CSS3**: For basic styling and layout adjustments.
+- **CSS**: For basic styling and layout adjustments.
 
 ## 📄 How to View
 
