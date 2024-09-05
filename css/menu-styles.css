@@ -1,0 +1,12 @@
+.price {
+  float: center;
+  font-weight: bold;
+}
+.description {
+  font-size: 14px;
+  color: #555;
+}
+main h3 {
+  color: red;
+  margin-top: 20px;
+}

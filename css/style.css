@@ -1,0 +1,23 @@
+nav ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  display: flex; /* Use flexbox for horizontal layout */
+  justify-content: center; /* Center the items */
+}
+nav li {
+  margin: 0 15px; /* Space between the items */
+}
+nav a {
+  color: black; /* White text color */
+  text-decoration: none; /* Remove underline */
+  padding: 10px 15px; /* Add padding */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  font-size: large;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #ff4500; /* Change background on hover */
+  border-radius: 5px; /* Rounded corners */
+}

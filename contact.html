@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Omar Ayman" />
+    <meta name="description" content="Contact Loco Tacos" />
+    <title>Contact Loco Tacos</title>
+    <link rel="stylesheet" href="css\style.css" />
+    <link rel="icon" type="image/x-icon" href="img\facIcon.png" />
+  </head>
+  <body>
+    <header>
+      <h1>Contact us</h1>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="hours.html">Working Hours</a></li>
+        </ul>
+      </nav>
+      <figure>
+        <img
+          src="img/tacos-shop.jpg"
+          alt="Tacos and drinks"
+          width="1420"
+          height="600"
+        />
+      </figure>
+    </header>
+    <hr />
+    <main>
+      <section>
+        <h2>Contact form</h2>
+        <form action="http://httpbin.org/get" method="get">
+          <fieldset>
+            <legend>Send us a message</legend>
+            <p>
+              <label for="name"></label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Your name"
+                required
+                autofocus
+              />
+            </p>
+            <p>
+              <label for="email"></label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Your email"
+                required
+              />
+            </p>
+            <p>
+              <label for="message">Your message</label>
+              <br />
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Type your message here."
+              ></textarea>
+            </p>
+          </fieldset>
+          <button value="submit">Send</button>
+        </form>
+      </section>
+      <section>
+        <h2>Our location</h2>
+        <address>
+          <p>123 Main Street, Downtown Cairo, Egypt</p>
+          <p>Postal Code: 12345</p>
+        </address>
+        Phone number: <a href="tel:+201012345678">+20 101 234 5678</a>
+      </section>
+    </main>
+    <hr />
+    <footer>
+      <p>&copy; 2024 Loco Tacos. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
